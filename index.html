@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script async src="./scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor-encuesta">
+        <form class="mi-form">
+    <div class="nombre">
+        
+        <label class="label-nombre" for="nombre">
+        <span  class="spans tipografia span-nombre" >
+            Nombre
+        </span>
+    </label>
+    </div>    
+    <div>
+        <input name="nombre" type="text" class="inputs input-nombre">
+    </div>
+
+<div>
+    <label for="Temas">
+        <span class="spans tipografia">
+            De lo aprendido hasta ahora, ¿qué te gustó más?
+        </span>
+    </div>
+        <select name="temas" id="" class="input-options tipografia">
+            <option value="lógica" class="options tipografia">Lógica</option>
+            <option value="intr. A la programación" class="options tipografia">Intr. A la programación</option>
+            <option value="lenguajes de programación" class="options tipografia">Lenguajes de programación</option>
+            <option value="inglés técnico" class="options tipografia">Inglés técnico</option>
+        </select>
+    </label>
+
+    <div>
+    <label for="Estudio">
+        <span class="spans tipografia">
+            Preferís estudiar
+        </span>
+        <div class="radios">
+            <input type="radio" id="dia" value="dia" name="radio">
+            <label for="dia" class="tipografia">De día</label>
+            <input type="radio" id="noche" value="noche" name="radio">
+            <label for="noche" class="tipografia">De noche</label>
+        </div>
+    </div>
+    </label>
+    <label for="checkboxs">
+        <span class="spans tipografia">
+            ¿Cuales fueron los temas más complejos hasta ahora?
+        </span>
+        <div class="checkboxs">
+            <div>
+            <input type="checkbox" id="typescript" name="checkboxes" value="typescript">
+            <label for="typescript" class="tipografia">Typescript</label>
+            </div>
+            <div>
+            <input type="checkbox" id="promesas" name="checkboxes" value="promesas">
+            <label for="promesas"class="tipografia">Promesas</label>
+            </div>
+            <div>
+            <input type="checkbox" id="clases" name="checkboxes" value="clases">
+            <label for="clases"class="tipografia">Clases</label>
+            </div>
+             <div>
+            <input type="checkbox" id="funciones" name="checkboxes" value="funciones">
+            <label  for="funciones"class="tipografia">Funciones</label>
+        </div>
+    </label>
+    <button class="button">
+        Enviar
+    </button>
+</form>
+</div>
+</div>
+</body>
+</html>

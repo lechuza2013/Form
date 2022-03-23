@@ -1,0 +1,84 @@
+body {
+  background-color: #0b1721;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contenedor-encuesta {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: auto;
+  border: solid;
+  padding: 25px;
+  background-color: white;
+  border-radius: 6px;
+}
+.tipografia {
+  font-family: "Roboto", sans-serif;
+  margin: 8px auto 40px auto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0b1721;
+}
+.input-nombre {
+  margin: 5px auto 25px auto;
+  width: 350px;
+}
+
+.input-options {
+  margin: 7px auto 35px auto;
+  width: 358px;
+}
+.radios {
+  margin: 10px 35px 40px auto;
+}
+#dia {
+  margin-left: 0;
+}
+.checkboxs {
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto 5px auto;
+}
+.button {
+  align-self: center;
+  margin-top: 55px;
+  width: 200px;
+  height: 65px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.1px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px #0b1721;
+  background-color: transparent;
+  color: #0b1721;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: #0b1721;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 0 0 0 2px #ffffff;
+  letter-spacing: 1.1px;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+button:active {
+  transform: scale(1);
+}
